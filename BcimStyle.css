@@ -1,0 +1,90 @@
+﻿body 
+{
+    margin:0 auto;
+    
+}
+.Bcimcontainer 
+{
+    margin: 0 auto;
+    position: relative;
+}
+    .Bcimcontainer .content {
+        position: absolute;
+        top: 40%;
+        left: 12%;
+        width: 85%;
+        
+    }
+@media only screen and (max-width: 600px)
+{
+    .Bcimcontainer .content {
+        position: unset;
+        padding: 0 0 0 5%;
+        text-align: left;
+        background-image: url(BCIM-BG1.jpg);
+        width: 100%;
+    }
+}
+
+.BcimGif {
+    width: 100%;
+    height: 100%;
+}
+@media only screen and (max-width: 600px) 
+{
+    .BcimGif {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+    /*------------Website Link Coloring--------------*/
+a.BcimLink 
+{
+    color: #025a73;
+    font-family: 'Kanit', sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+}
+.header4 {
+    font-family: 'Viga', sans-serif;
+    color: #170069;
+    
+}
+
+
+a.BcimLink:link {
+    color: #025a73;
+}
+
+        a.BcimLink:hover {
+            color: saddlebrown;
+        }
+    /*------------email Link Coloring--------------*/
+    a.EmailLink {
+        color: white;
+        text-decoration: none;
+    }
+
+        a.EmailLink:link {
+            color: white;
+        }
+
+        a.EmailLink:hover 
+        {
+            color: #0076cf;
+        }
+.bcimfooter 
+{
+    background-color: #0e003d;
+    color: white;
+    font-size: medium;
+    height: 25px;
+}
+@media only screen and (max-width: 600px) {
+    .bcimfooter {
+        font-size: smaller;
+        height: 100%;
+    }
+}
+
